@@ -23,7 +23,7 @@ requirements:
     - flask
     - marshmallow
     - python >=3
-    - webargs
+    - webargs <6
     - werkzeug
 
 test:
