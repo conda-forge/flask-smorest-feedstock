@@ -5,11 +5,13 @@ Home: https://github.com/marshmallow-code/flask-smorest
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flask-smorest-feedstock/blob/master/LICENSE.txt)
 
 Summary: DB agnostic framework to build auto-documented REST APIs with Flask and marshmallow
 
+Development: https://github.com/marshmallow-code/flask-smorest
 
+Documentation: https://flask-smorest.readthedocs.io/
 
 Current build status
 ====================
