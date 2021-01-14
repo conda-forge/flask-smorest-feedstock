@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -19,11 +19,11 @@ requirements:
     - python >=3
     - pip
   run:
-    - apispec >=3
+    - apispec >=4
     - flask >=1.1
-    - marshmallow >=2.15.2
+    - marshmallow >=3.10
     - python >=3
-    - webargs >=6
+    - webargs >=7
     - werkzeug >=0.15
 
 test:
