@@ -1,5 +1,5 @@
 {% set name = "flask-smorest" %}
-{% set version = "0.27.0" %}
+{% set version = "0.28.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9b49499a50aa65078c8cf38a7ce5ed4b352b4f0a4d04bc0696ce290712d21663
+  sha256: cfcbe4e2de34726eb48ab7182dc94ce0e3a8ee8ae7f5454603f77fd685f1b8e0
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
