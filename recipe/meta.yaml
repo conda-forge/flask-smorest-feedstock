@@ -19,9 +19,9 @@ requirements:
     - python >=3
     - pip
   run:
-    - apispec >=4
+    - apispec >=5
     - flask >=2
-    - marshmallow >=3.10
+    - marshmallow >=3.13
     - python >=3
     - webargs >=8
     - werkzeug >=2
