@@ -1,5 +1,5 @@
 {% set name = "flask-smorest" %}
-{% set version = "0.31.3" %}
+{% set version = "0.32.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6f7c39ab15b27798de1555e49b686a44daf42d04e249542e92a7f5cf734bfaed
+  sha256: bf3d090d8490744ddb242a3dfef8b0d8f5d548548c9563815fe8a785ae91de93
 
 build:
   noarch: python
@@ -19,9 +19,9 @@ requirements:
     - python >=3
     - pip
   run:
-    - apispec >=4
+    - apispec >=5
     - flask >=2
-    - marshmallow >=3.10
+    - marshmallow >=3.13
     - python >=3
     - webargs >=8
     - werkzeug >=2
