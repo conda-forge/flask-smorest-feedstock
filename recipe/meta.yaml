@@ -19,6 +19,7 @@ requirements:
     - python >=3
     - pip
     - setuptools
+    - flit-core
   run:
     - apispec >=5
     - flask >=2
