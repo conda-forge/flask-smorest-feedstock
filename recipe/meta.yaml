@@ -18,6 +18,7 @@ requirements:
   host:
     - python >=3
     - pip
+    - setuptools
   run:
     - apispec >=5
     - flask >=2
