@@ -23,7 +23,7 @@ requirements:
   run:
     - apispec >=5
     - flask >=2
-    - marshmallow >=3.13
+    - marshmallow <4,>=3.24.1
     - python >={{ python_min }}
     - webargs >=8
     - werkzeug >=2
